@@ -88,10 +88,11 @@ body{
     width: 25%;
     height: 70%;
     border-radius: 50px;
+    box-shadow:  15px 15px 25px #f2789f;  
 }
-.img-somos:hover{
+/* .img-somos:hover{
     box-shadow:  15px 15px 15px #f2789f;       
-}
+} */
 .carta{
     display: flex;
     flex-direction: row;
@@ -147,9 +148,9 @@ body{
         rgba(0,0,0,0.5)) 
     ,url(img/carta3.jpg);     
 }
-.img-contacto:hover{
+/* .img-contacto:hover{
     box-shadow:  15px 15px 15px #f2789f;    
-}
+} */
 .contacto{
     height: 70vh;
      
@@ -173,6 +174,7 @@ body{
     background-position: center center;
     background-size: cover;
     border-radius: 30px;
+    box-shadow:  15px 15px 25px #f2789f; 
 }
 .datos{
     text-align: center;
@@ -181,6 +183,7 @@ body{
     font-size: 3em;
     }
 .datos li{
+    text-decoration: none;
     list-style-type: square;
     font-size: 1.5em;
     padding: 5px;
